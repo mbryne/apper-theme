@@ -1,5 +1,18 @@
 <?php
 //
+//  HOOKS
+//
+
+add_action('init', 'apper_cleanup_head');
+add_filter('wp_title', 'apper_cleanup_title', 10, 3);
+add_filter('the_generator', 'apper_remove_rss_version');
+add_filter('wp_head', 'apper_remove_wp_widget_recent_comments_style', 1);
+add_action('wp_head', 'apper_remove_recent_comments_style', 1);
+add_filter('gallery_style', 'apper_remove_gallery_style');
+add_filter('the_content', 'apper_filter_ptags_on_images');
+add_filter('excerpt_more', 'apper_excerpt_more');
+
+//
 //  BONES INHERITED THEME FUNCTIONS
 //
 
