@@ -170,7 +170,7 @@ function apper_comments($comment, $args, $depth) {
                 ?>
                 <img data-gravatar="http://www.gravatar.com/avatar/<?php echo md5($bgauthemail); ?>?s=40"
                      class="load-gravatar avatar avatar-48 photo" height="40" width="40"
-                     src="<?php echo get_template_directory_uri(); ?>/library/images/nothing.gif"/>
+                     src="<?php echo get_stylesheet_directory_uri(); ?>/library/images/nothing.gif"/>
                 <?php // end custom gravatar call ?>
                 <?php printf(__('<cite class="fn">%1$s</cite> %2$s', 'apper'), get_comment_author_link(), edit_comment_link(__('(Edit)', 'apper'), '  ', '')) ?>
                 <time datetime="<?php echo comment_time('Y-m-j'); ?>"><a

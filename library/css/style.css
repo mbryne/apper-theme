@@ -1251,7 +1251,6 @@ body {
   font-size: 100%;
   line-height: 1.5;
   color: #5c6b80;
-  background-color: #eaedf2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -1358,13 +1357,8 @@ h5, .h5 {
 /*********************
 HEADER STYLES
 *********************/
-.header {
-  background-color: #323944; }
-
 #logo {
   margin: 0.75em 0; }
-  #logo a {
-    color: #fff; }
 
 /*********************
 NAVIGATION STYLES
@@ -1735,9 +1729,7 @@ SIDEBARS & ASIDES
 FOOTER STYLES
 *********************/
 .footer {
-  clear: both;
-  background-color: #323944;
-  color: #f8f9fa; }
+  clear: both; }
 
 /*
 if you checked out the link above:
