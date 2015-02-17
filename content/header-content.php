@@ -1,6 +1,6 @@
 
 
-    <p id="logo" class="h1" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
+    <h1 id="logo" class="h1" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></h1>
 
     <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 
